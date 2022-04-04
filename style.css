@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');/* send flowers google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Send+Flowers&display=swap'); /* Rubit wet paint google font  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    /* overflow: hidden; */
+}
+.div1{
+    position:relative;
+    
+    background-image: url(./Images/img3.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    /* background-position-y: -94rem; */
+    /* background-position-x: -172rem */
+    
+
+
+}
+.parallaX h2{
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+.div1, .div2, .div3, .div4{
+    /* display: none; */
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate3d(40px, 40px, 40px); */
+}
+.div2{
+    background: rgba(129, 50, 50, 0.507);
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.div2 p, .div4 p{
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: justify;
+    font-family: 'Send Flowers', cursive;
+    /* color: white; */
+    font-weight: bold;
+}
+.div3{
+    color: white;
+    background-image: url(./Images/img4.jpg);
+    background-attachment: fixed;
+    
+     background-position-y: 0;
+    background-position-x: 0;
+    background-size: cover;
+    background-position: cover;
+    
+
+}
+.div4{
+    color: black;
+    background-color: lightpink;
+    flex-direction: column;
+}
+.div2 h2, .div4 h2{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 3rem;
+}
+
+@media (max-width:500px) {
+     .div3{
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+    
+} 
+
+.div4 h2{
+    transform: translateX(300px);
+}
